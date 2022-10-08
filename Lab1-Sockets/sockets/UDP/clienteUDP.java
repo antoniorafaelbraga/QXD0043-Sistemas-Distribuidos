@@ -19,6 +19,7 @@ class clienteUDP {
 		//dadosEnvio = frase.getBytes();
 		
 		dadosEnvio = "sistemas distribuidos".getBytes();
+		System.out.println("Mensagem original: "+new String(dadosEnvio));
 		
 		DatagramPacket pacoteEnviado = new DatagramPacket(dadosEnvio,
 				dadosEnvio.length, IPAddress, 6789);

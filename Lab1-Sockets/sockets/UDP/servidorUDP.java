@@ -23,6 +23,7 @@ class servidorUDP {
 			System.out.println("Recebeu conexao do cliente com IP: "+ IPAddress.getHostAddress() +" e porta :"+ porta);
 			System.out.println("Frase recebida: "+ frase);
 			String fraseEmMaiusculas = frase.toUpperCase();
+			System.out.println("Frase modificada: "+ fraseEmMaiusculas);
 			
 			dadosEnviados = fraseEmMaiusculas.getBytes();
 			DatagramPacket pacoteEnviado = new DatagramPacket(dadosEnviados, dadosEnviados.length, IPAddress, porta);
