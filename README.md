@@ -12,7 +12,7 @@ Este repositório é da disciplina de Sistemas Distribuídos, ministrada pelo pr
 
 [Lab 5 - Serialization XML](https://github.com/antoniorafaelbraga/QXD0043-Sistemas-Distribuidos/tree/main/Lab5-SeializationXML)
 
-[Lab 6 - Reflection](https://github.com/antoniorafaelbraga/QXD0043-Sistemas-Distribuidos/tree/main/Lab6-reflection)
+[Lab 6 - Reflection](https://github.com/antoniorafaelbraga/QXD0043-Sistemas-Distribuidos/tree/main/Lab6-Reflection)
 
 [Lab 7 - RMI](https://github.com/antoniorafaelbraga/QXD0043-Sistemas-Distribuidos/tree/main/Lab7-RMI)
 
