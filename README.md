@@ -1,6 +1,6 @@
 # Sistemas Distribuidos
 
-Este repositório é da disciplina de Sistemas Distribuídos, ministrada pelo professor Rafael Braga. 
+Repositório da disciplina de QXD0043 - Sistemas Distribuídos, ministrada pelo Prof. Antonio Rafael Braga, da Univeridade Federal do Ceará, campus Quixadá.
 
 [Lab 1 - Sockets](https://github.com/antoniorafaelbraga/QXD0043-Sistemas-Distribuidos/tree/main/Lab1-Sockets)
 
