@@ -1,4 +1,4 @@
-package pojos;
+package entidades;
 
 public class Person {
 

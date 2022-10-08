@@ -2,14 +2,14 @@ package serialization;
 
 import com.thoughtworks.xstream.XStream;
 
-import pojos.Pessoa;
+import entidades.Pessoa;
 
 public class Teste {
 
    public static void main(String args[]) {
          // criando um Aluno
          Pessoa pessoa = new Pessoa("Antonio Rafael Braga", 70, 180);
-         // exibindo o resultado da serialização com XStream
+         // exibindo o resultado da serializaï¿½ï¿½o com XStream
          XStream xstream= new XStream();
          String representacao = xstream.toXML(pessoa);
          System.out.println(representacao);

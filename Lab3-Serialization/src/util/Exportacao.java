@@ -5,12 +5,12 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
-import pojos.Pessoa;
+import entidades.Pessoa;
 
 public class Exportacao {
 
 	public static void main(String[] args) throws IOException {
-		// desserialização: recuperando os objetos gravados no arquivo binário "dados.dat"
+		// desserializaï¿½ï¿½o: recuperando os objetos gravados no arquivo binï¿½rio "dados.dat"
 		ArrayList<Object> pessoa = Desempacotamento.lerArquivoBinario("dados.dat");
 
 		FileWriter arq = new FileWriter("export.txt");
@@ -22,14 +22,14 @@ public class Exportacao {
 		for (Object item : pessoa) {
 			System.out.printf("Exportando %do. registro de %d: %s\n", i++, n, ((Pessoa) item).getNome());
 
-			gravarArq.printf("Nome|%s;Peso Corporal|%.2f;Altura|%.2f;IMC|%.2f;Interpretação|%s%n",
+			gravarArq.printf("Nome|%s;Peso Corporal|%.2f;Altura|%.2f;IMC|%.2f;Interpretaï¿½ï¿½o|%s%n",
 					((Pessoa) item).getNome(), ((Pessoa) item).getPC(), ((Pessoa) item).getAlt(), ((Pessoa) item).IMC(),
 					((Pessoa) item).interpretaIMC());
 		}
 
 		gravarArq.close();
 
-		System.out.printf("\nExportação realizada com sucesso.\n");
+		System.out.printf("\nExportaï¿½ï¿½o realizada com sucesso.\n");
 	}
 
 }

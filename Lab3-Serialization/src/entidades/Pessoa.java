@@ -1,4 +1,4 @@
-package pojos;
+package entidades;
 
 import java.io.Serializable;
 

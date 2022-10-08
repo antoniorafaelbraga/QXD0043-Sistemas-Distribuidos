@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import pojos.Pessoa;
+import entidades.Pessoa;
 import util.Desempacotamento;
 import util.Empacotamento;
 
@@ -17,7 +17,7 @@ public class Exemplo1 {
 		double pc, alt;
 		Scanner ler = new Scanner(System.in);
 
-		// 1) desserialização: recuperando os objetos gravados no arquivo binário "dados.dat"
+		// 1) desserializaï¿½ï¿½o: recuperando os objetos gravados no arquivo binï¿½rio "dados.dat"
 		ArrayList<Object> pessoa = Desempacotamento.lerArquivoBinario("dados.dat");
 
 		// 2) entrada de dados
@@ -41,7 +41,7 @@ public class Exemplo1 {
 		}
 		ler.close();
 
-		// 3) serialização: gravando o objeto no arquivo binário "dados.dat"
+		// 3) serializaï¿½ï¿½o: gravando o objeto no arquivo binï¿½rio "dados.dat"
 		Empacotamento.gravarArquivoBinario(pessoa, "dados.dat");
 	}
 }
